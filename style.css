@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #0d121e;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+/*MENU*/
+.menu {
+    padding: 20px;
+    background-color: #0e121e;
+}
+.menu > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu > nav > div > ul {
+    display: flex;
+    
+}
+
+.menu > nav > div > ul > li {
+    padding: 0px 10px 0px 10px;
+    
+}
+
+/* .menu > nav > div > ul > li:hover {
+    border-bottom: 1px solid white;
+} */
+
+.btn-agendar {
+    display: block;
+    padding: 10px;
+    background-color: #F0B35B;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width: 543px) {
+
+.btn-agendar {
+    padding: 5px;
+}    
+}
+
+
+.btn-agendar:hover {
+    border: none !important;
+}
+
+.logo-nav {
+    padding-right: 30px;
+}
+
+/*INICIO*/
+
+.img-fundo {
+    background-image: url(imagens/imagem-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 820px;
+}
+
+.inicio {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.inicio > h1 {
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+}
+
+.inicio > p {
+    font-size: 28px;
+    text-align: center;
+    
+    
+}
+
+.btn-agendar-2 {
+    
+    font-size: 16px !important;
+    background-color: #F0B35B;
+    border-radius: 8px;
+    width: 250px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+
+/*SOBRE*/
+
+.sobre {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    
+}
+
+.sobre-texto {
+    max-width: 500px;
+    max-height: 600px;
+    padding-left: 10px;
+}
+
+.sobre-texto > h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+}
+
+.sobre-texto > p {
+    font-size: 16px;
+}
+
+.horario-func {
+    padding-top: 10px;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+}
+
+/* .sobre-container {
+    display: flex;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.sobre-info > h2 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+ */
+
+
+
