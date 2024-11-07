@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 ul, li, a {
     list-style: none;
     text-decoration: none;
@@ -113,29 +117,38 @@ body {
 
 /*SOBRE*/
 
+.background-sobre {
+
+}
+
 .sobre {
+    border-radius: 2px;
+    background-color: #070a11ad;
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
     padding: 30px 20px;
-    
+    margin-top: 10px;
+    margin-bottom: 30px;    
 }
 
 .sobre-texto {
-    max-width: 500px;
-    max-height: 600px;
+    
     padding-left: 10px;
 }
 
 .sobre-texto > h2 {
+    text-align: center;
     font-size: 40px;
     padding-bottom: 10px;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
 }
 
 .sobre-texto > p {
-    font-size: 16px;
+    font-size: 18px;
 }
+
+
 
 .horario-func {
     padding-top: 10px;
@@ -143,20 +156,60 @@ body {
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
 }
 
-/* .sobre-container {
-    display: flex;
+
+ /*Serviços*/
+
+.background-servicos {
+    
+}
+.servicos {
+    border-radius: 2px;
+    padding: 30px 20px;
+    background-color: #f0b35b;
     max-width: 1000px;
-    padding: 20px;
     margin: 0 auto;
 }
-
-.sobre-info > h2 {
+.servicos-texto > h2 {
+    color: #0d121e;
     text-align: center;
-    font-size: 40px;
+    padding-bottom: 20px;
     
 }
 
- */
+.servicos-texto > p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.servicos-img {
+    display: flex;
+}
+
+.preco, .texto-img {
+    color: black;
+    text-align: center;
+    
+}
+
+.texto-img {
+    font-weight: bold;
+}
+
+.preco {
+    
+}
+
+.servicos-img-1, .servicos-img-2 {
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.servicos-img-3 {
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+}
 
 
 
