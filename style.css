@@ -123,7 +123,7 @@ body {
 
 .sobre {
     border-radius: 2px;
-    background-color: #070a11ad;
+    background-color: #0a0d18;
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
@@ -139,6 +139,7 @@ body {
 
 .sobre-texto > h2 {
     text-align: center;
+    text-transform: uppercase;
     font-size: 40px;
     padding-bottom: 10px;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
@@ -159,9 +160,6 @@ body {
 
  /*Serviços*/
 
-.background-servicos {
-    
-}
 .servicos {
     border-radius: 2px;
     padding: 30px 20px;
@@ -170,7 +168,9 @@ body {
     margin: 0 auto;
 }
 .servicos-texto > h2 {
-    color: #0d121e;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
     text-align: center;
     padding-bottom: 20px;
     
@@ -185,6 +185,12 @@ body {
 .servicos-img {
     display: flex;
 }
+
+.servicos-img-1 > img, .servicos-img-2 > img, .servicos-img-3 > img  {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
 
 .preco, .texto-img {
     color: black;
@@ -211,5 +217,67 @@ body {
     border-radius: 4px 4px 4px 4px;
 }
 
+/*TIME*/
+.time {
+    border-radius: 2px;
+    background-color: #0a0d18;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+    text-align: center; 
+}
+
+.time > h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+}
+
+.time-imgs {
+    display: flex;
+    align-items: flex-end;
+}
+
+.time-img1, .time-img2 {
+    margin-right: 20px;
+    
+}
+
+.time-imgs > div > p {
+    font-size:  16px;
+}
+
+/*UNIDADES*/
+
+.unidades {
+    border-radius: 2px;
+    background-color: #0a0d18;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+    text-align: center; 
+}
+
+.unidades > h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55);
+}
+.unidade-img {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unidade-1 {
+    margin-right: 20px;
+}
 
 
